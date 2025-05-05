@@ -1,0 +1,114 @@
+.form-search .label {
+    color: #76838f;
+    font-size: 12px;
+}
+.form-search i.voyager-search {
+    vertical-align: middle;
+}
+.search-input {
+    padding: 1px;
+    border: solid 1px #eaeaf1;
+    border-radius: 6px;
+    background-color: #fff;
+    display: inline-flex;
+}
+.search-input .input-group {
+    display: flex;
+    position: relative;
+}
+.search-input input {
+    border: 0;
+    box-shadow: none;
+    width: 100%;
+}
+.search-input button {
+    margin: 2px 0 0 0;
+    background: none;
+    box-shadow: none;
+    border: 0;
+    color: #999;
+    padding: 1px 8px 0 10px;
+    border-left: solid 1px #eee;
+    right: 20px;
+    z-index: 9;
+}
+.search-input button:hover {
+    border: 0;
+    box-shadow: none;
+    color: #777;
+    border-left: solid 1px #ddd;
+}
+.search-input i {
+    font-size: 18px;
+    transform: rotate(270deg);
+    display: block;
+}
+
+.table>caption+thead>tr:first-child>td, .table>caption+thead>tr:first-child>th, .table>colgroup+thead>tr:first-child>td, .table>colgroup+thead>tr:first-child>th, .table>thead:first-child>tr:first-child>td, .table>thead:first-child>tr:first-child>th {
+    white-space: nowrap;
+}
+
+.length-input {
+    width: 44px;
+}
+.red-border {
+    border: red solid 1px;
+}
+.routines-fieldset iframe {
+    max-width: 720px;
+    height: 400px;
+}
+.video-message {
+    color: red;
+}
+.fill-from-chapters {
+    display: block;
+}
+label.required:after {
+    content:" *";
+    color: red;
+}
+.search-clear {
+    padding: 0px 4px;
+    line-height: 23px;
+    margin-bottom: 9px;
+    font-size: 12px;
+}
+.language-label.js-language-label{
+    display: none;
+}
+.workout-leaderboard #dataTable th a {
+    font-weight: 500;
+}
+
+.workout-leaderboard #dataTable a {
+    font-weight: 100;
+}
+.analytics-container {
+    display:none;
+}
+.pull-right nav {
+    border: none;
+}
+.pull-right nav a, .pull-right nav span {
+    margin: 8px;
+}
+.app-footer {
+    display: none;
+}
+.page-content.read img.img-responsive{
+    max-width: 350px;
+}
+.side-menu .ps__scrollbar-y-rail {
+    display: block;
+    z-index: 999;
+}
+.side-menu .ps__scrollbar-y {
+    z-index: 999;
+}
+.panel-bordered>.panel-body {
+    overflow: unset;
+}
+input[type="time"]::-webkit-calendar-picker-indicator {
+    display: none;
+}
